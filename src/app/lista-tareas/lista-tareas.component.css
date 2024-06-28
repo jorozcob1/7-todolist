@@ -1,0 +1,42 @@
+.completada {
+    text-decoration: line-through !important;
+    color: #ec2626;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #3f4c6b;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #606c88;
+}
+
+tr:nth-child(even) {
+    background-color: #4b566c;
+}
+
+tr:hover {
+    background-color: #2e3647;
+}
+
+table,
+th,
+td {
+    border: 1px solid #606c88;
+}
+
+.dell {
+    text-align: center;
+}

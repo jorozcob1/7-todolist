@@ -1,0 +1,26 @@
+.delete-button {
+    background: #ff4b5c;
+    background: -webkit-linear-gradient(to right, #ff4b5c, #ff4b5c);
+    background: linear-gradient(to right, #ff4b5c, #ff4b5c);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.delete-button:hover {
+    background: #ff1c3d;
+    background: -webkit-linear-gradient(to right, #ff1c3d, #ff1c3d);
+    background: linear-gradient(to right, #ff1c3d, #ff1c3d);
+    transform: scale(1.05);
+}
+
+.delete-button:active {
+    background: #d90022;
+    background: -webkit-linear-gradient(to right, #d90022, #d90022);
+    background: linear-gradient(to right, #d90022, #d90022);
+    transform: scale(0.95);
+}
