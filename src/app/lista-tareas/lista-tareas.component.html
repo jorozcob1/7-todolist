@@ -19,9 +19,9 @@
                     <span>{{ tarea }}</span>
                 </td>
                 <td>
-                    <button (click)="cambiarEstado($index)">
+                    <button class="estado" (click)="cambiarEstado($index)">
             @if(tareaCompletada){
-            <p>{{ tareaCompletada }}</p>
+            <p>Cambiar</p>
             } @else {pendiente}
           </button>
                 </td>
